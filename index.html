@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Imersão Alura</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-     <!-- Font Awesome-->
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="src/styles/main-content.css">
+    <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/54c205d4d4.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
     <div class="sidebar">
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="assets/icons/logo-spotify.png" alt="Logo Spotify">
+                    <img src="src/assets/icons/logo-spotify.png" alt="Logo Spotify">
                 </a>
             </div>
             <ul>
@@ -35,9 +39,9 @@
         </nav>
         <nav class="library">
             <div class="title">
-               <i class="fa-solid fa-layer-group"></i>
-               <h3>Sua Biblioteca</h3>
-               <i class="fa-solid fa-plus"></i> 
+                <i class="fa-solid fa-layer-group"></i>
+                <h3>Sua Biblioteca</h3>
+                <i class="fa-solid fa-plus"></i>
             </div>
             <div class="content">
                 <div>
@@ -57,13 +61,38 @@
             </button>
         </nav>
     </div>
-    
-    <div class="footer">
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+
+                <div class="header-search">
+                    <img src="src/assets/icons/search.png" alt="">
+                    <input type="text" id="search-input" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+
+                <div class="header-login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+    <footer>
         <div>
             <span>Testar o Premium de graça</span>
-            <p>Inscreva-se para curtir músicas ilimitadas e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>   
+            <p>Inscreva-se para curtir músicas ilimitadas e podcasts só com alguns anúncios. Não precisa de cartão de
+                crédito.</p>
         </div>
         <button>Inscreva-se grátis</button>
-    </div>
+    </footer>
 </body>
+
 </html>
