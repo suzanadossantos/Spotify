@@ -87,8 +87,29 @@
     cursor: pointer;
     width: 100px;
     height: 48px;
+    background-color: #fff;
     color: #000;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.container{
+    background-color: var(--bg);
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: var(--font-arial);
+}
+
+.container h1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.container h2{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
 }

@@ -1,8 +1,10 @@
 :root{
     /* Font */
     --font-noto-sans: "Noto Sans JP", sans-serif;
+    --font-arial: Arial, Helvetica, sans-serif;
 
     /* Colors */
+    --bg: #121212;
     --bg-icon: #131313;
-    --bg-arrow-color: rgba(0,0,07)
+    --bg-arrow-color: rgba(0,0,07);
 }
