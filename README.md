@@ -1,4 +1,4 @@
-# Spotify 🕸️
+# Spotify 
  
 ### Criação 
  
